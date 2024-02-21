@@ -20,7 +20,7 @@ export const getMaxCharacters = (str) => {
   }
 
   for (let character in characterMap) {
-    if (characterMap[character] > count) {
+    if (characterMap[character] > maxCount) {
       maxCount = characterMap[character];
       maxCharacter = character;
     }
